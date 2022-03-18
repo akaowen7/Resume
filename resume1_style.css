@@ -13,15 +13,16 @@ body{
 }
 
 .resume{
-    width: 816px; /* 96 ppi, 8.5 inches */
-    height: 1056px; /* 96 ppi, 11 inches */
-    background: white;
+    width: 8.5in; /* 96 ppi, 8.5 inches */
+    height: 11in; /* 96 ppi, 11 inches */
+    background: #ffffff;
     display: flex;
     margin: auto;
 }
 
 .resume .left{
-    width: 300px;
+    padding: 4%;
+    width: 30%;
     height: auto;
     background: #292929;
     color: #ffffff;
@@ -31,25 +32,8 @@ body{
     margin: 1em 0;
 }
 
-.resume .left .profile{
-    height: 250px;
-    width: 100%;
-    justify-content: center;
-}
-
-.resume .left .profile img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 95%;
-    width: auto;
-    padding: 3%;
-    border-radius: 30px;
-    position: relative;
-}
-
-.resume .left .title{
-    margin: .7em 10%;
+.resume .left h1{
+    margin: .5em 0;
 }
 
 .resume .left .title p{
@@ -60,29 +44,26 @@ body{
 .resume .left .title h1{
     text-align: right;
     font-weight: 500;
-    size: 18px;
-    margin: .2em 0;
+    font-size: 12mm;
+    margin: 0 0 .2em 0;
 }
 
 .resume .left .about{
-    margin: 1em 10%;
     border-bottom: 3px solid #ffffff
 }
 
 .resume .left .contact{
-    margin: 0 10% 1em 10%;
     border-bottom: 3px solid #ffffff;
 }
 
-.resume .left .skills{
-    margin: 0 10% 1em 10%;
-}
+/* .resume .left .skills{
+} */
 
 .resume .right{
     color: #292929;
     flex: 1;
     width: auto;
-    padding: 4% 4%;
+    padding: 4%;
 }
 
 .resume .right .list{
@@ -137,6 +118,7 @@ b{
 
 p{
     font-weight: 400;
+    font-size: 4mm;
 }
 
 h1{
