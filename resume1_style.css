@@ -10,11 +10,12 @@
 
 body{
     background: rgb(117, 116, 116);
+    /* margin: 0; */
 }
 
 .resume{
-    width: 8.5in; /* 96 ppi, 8.5 inches */
-    height: 11in; /* 96 ppi, 11 inches */
+    width: 8.5in;
+    height: 11in;
     background: #ffffff;
     display: flex;
     margin: auto;
@@ -22,7 +23,7 @@ body{
 
 .resume .left{
     padding: 4%;
-    width: 30%;
+    width: 32%;
     height: auto;
     background: #292929;
     color: #ffffff;
@@ -79,7 +80,6 @@ body{
 .resume .right .list h1{
     text-align: right;
     font-weight: 500;
-    font-size: 28px;
     margin: 0 0 0.3em 0;
 }
 
@@ -122,9 +122,20 @@ p{
 }
 
 h1{
+    font-size: 7mm;
     font-weight: 300;
 }
 
 h2{
     font-weight: 300;
+    font-size: 5.5mm;
+}
+
+@media print {
+    body {
+      margin: 0;
+    }
+    .resume{
+        margin: 0;
+    }
 }
