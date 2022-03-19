@@ -51,18 +51,31 @@ body{
 }
 
 .resume .left .about{
-    border-bottom: 1.5px solid #ffffff
-}
-
-.resume .left .contact{
     border-bottom: 1.5px solid #ffffff;
 }
 
+.resume .left .contact{
+    padding: .5em 0;
+    border-bottom: 1.5px solid #ffffff;
+}
+.resume .left .contact .info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.resume .left .contact p{
+    margin: .45em;
+}
+
 .resume .left .skills{
+    padding: 0 0 .5em 0;
     border-bottom: 1.5px solid #ffffff;
 }
 .resume .left .skills .center{
     text-align-last: justify;
+}
+.resume .left .skills p{
+    margin: .3em 0;
 }
 
 .resume .right{
