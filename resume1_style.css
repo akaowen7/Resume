@@ -23,7 +23,7 @@ body{
 
 .resume .left{
     padding: 4%;
-    width: 28%;
+    width: 27%;
     height: auto;
     background: #292929;
     color: #ffffff;
@@ -46,20 +46,20 @@ body{
 .resume .left .title h1{
     text-align: right;
     font-weight: 500;
-    font-size: 12mm;
+    font-size: 11mm;
     margin: 0 0 .2em 0;
 }
 
 .resume .left .about{
-    border-bottom: 3px solid #ffffff
+    border-bottom: 1.5px solid #ffffff
 }
 
 .resume .left .contact{
-    border-bottom: 3px solid #ffffff;
+    border-bottom: 1.5px solid #ffffff;
 }
 
 .resume .left .skills{
-    border-bottom: 3px solid #ffffff;
+    border-bottom: 1.5px solid #ffffff;
 }
 .resume .left .skills .center{
     text-align-last: justify;
@@ -75,7 +75,7 @@ body{
 .resume .right .list{
     width: auto;
     margin: 0 0 .5em 0;
-    border-bottom: 2px solid #292929;
+    border-bottom: 1.5px solid #292929;
 }
 
 .resume .right :last-child{
@@ -114,7 +114,20 @@ body{
 }
 
 .resume .right .list li p{
-    margin: .3em 0;
+    margin: .15em 0;
+}
+
+.resume .right .list .item .project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.resume .right .list .item .project p{
+    font-weight: 350;
+    color: #797979;
+    font-size: 3.5mm;
+    margin: .8em 0 0 0 ;
 }
 
 b{
@@ -123,7 +136,7 @@ b{
 
 p{
     font-weight: 400;
-    font-size: 4mm;
+    font-size: 3.9mm;
 }
 
 h1{
