@@ -23,7 +23,7 @@ body{
 
 .resume .left{
     padding: 4%;
-    width: 32%;
+    width: 28%;
     height: auto;
     background: #292929;
     color: #ffffff;
@@ -35,6 +35,7 @@ body{
 
 .resume .left h1{
     margin: .5em 0;
+    font-size: 6mm;
 }
 
 .resume .left .title p{
@@ -57,20 +58,24 @@ body{
     border-bottom: 3px solid #ffffff;
 }
 
-/* .resume .left .skills{
-} */
+.resume .left .skills{
+    border-bottom: 3px solid #ffffff;
+}
+.resume .left .skills .center{
+    text-align-last: justify;
+}
 
 .resume .right{
     color: #292929;
     flex: 1;
     width: auto;
-    padding: 4%;
+    padding: 3.5%;
 }
 
 .resume .right .list{
     width: auto;
-    margin: 0 0 1em 0;
-    border-bottom: 3px solid #292929;
+    margin: 0 0 .5em 0;
+    border-bottom: 2px solid #292929;
 }
 
 .resume .right :last-child{
@@ -80,11 +85,11 @@ body{
 .resume .right .list h1{
     text-align: right;
     font-weight: 500;
-    margin: 0 0 0.3em 0;
+    margin: 0;
 }
 
 .resume .right .list li{
-    padding: .3em;
+    padding: .3em 0;
     display: flex;
     flex: 1;
     list-style-type: none;
@@ -92,10 +97,10 @@ body{
 }
 
 .resume .right .list li h1{
-    margin: 0 .2em;
+    margin: 0;
     text-align: left;
-    width: 17%;
-    font-size: 1.3em;
+    width: 2.6em;
+    font-size: 1.1em;
 }
 
 .resume .right .list li h2{
